@@ -1,0 +1,16 @@
+# Comparing Supervised Machine Learning Algorithms for Emotion Recognition Performance
+
+## Description 
+ As social creatures, we interact with many people on a daily basis. 
+Recognizing another human's emotions can not only improve social interaction, but also keep one from harm, such as the case when avoiding a person in a hostile mood. 
+Some individuals have visual or neurological conditions that make it difficult to recognize other's emotions. 
+For example, although many visually impaired individuals can still identify emotions from verbal cues, they are still lacking visual information that could complement emotion recognition. 
+Some individuals with autism spectrum disorder (ASP) have trouble both recognizing and expressing facial expressions \cite{DSM}, and therefore, having a tool that computes and reports another person's affect may aid communication. 
+
+Other motivations for emotion recognition are either research-based or involve law-enforcement (Dwoskin, 2015). 
+Companies like Affectiva (Affectiva, 2015) have already developed real-time facial expression recognition software that uses the psychologist Dr. Paul Ekman's work on basic human emotions -- surprise, contempt, fear, happy, sadness, disgust, and anger (Ekman, 1999). 
+These software can be used by other companies for marketing purposes, such as measuring the consumers' reaction to product advertisements. On law-enforcement side, emotion detection can be used for counter-terrorism measures, which may warn illicit activities or uncover inconsistencies in suspects' accounts during interrogation. 
+
+Due to the large impact of emotion recognition tools, it is vital that these tools are indeed accurate at detecting emotions. 
+Accuracy of these tools are dependent on the training sample size, machine learning classification algorithms, and generalizability to various cultures and environments. 
+Given the scope of this project, we will use existing facial expression dataset to compare the accuracies of various supervised machine learning algorithms in classifying facial expression data. 
