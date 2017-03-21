@@ -1,16 +1,30 @@
 # Comparing Supervised Machine Learning Algorithms for Emotion Recognition Performance
 
 ## Description 
- As social creatures, we interact with many people on a daily basis. 
-Recognizing another human's emotions can not only improve social interaction, but also keep one from harm, such as the case when avoiding a person in a hostile mood. 
-Some individuals have visual or neurological conditions that make it difficult to recognize other's emotions. 
-For example, although many visually impaired individuals can still identify emotions from verbal cues, they are still lacking visual information that could complement emotion recognition. 
-Some individuals with autism spectrum disorder (ASP) have trouble both recognizing and expressing facial expressions (DSM, 2013), and therefore, having a tool that computes and reports another person's affect may aid communication. 
+I compared 8 machine learning algorithms for human emotion recognition using Scikit-learn's python library. 
+I used the Extended Cohn-Kanade Dataset (CK+), which is a database developed by Carnegie Mellon Univer- sity and the University of Pittsburgh, and it contains facial expression data that can be used to study automatic facial expression detection.
+Specifically, I used the Active Appearance Models Landmarks (AAMs), Facial Action Coding System (FACS) Action Unit (AU) Labels, and the emotion labels for the video sequence. 
+### Algorithms
+<ul>
+	<li>Linear Discriminant Analysis (LDA)</li>
+	<li> Support Vector Machine (SVM) </li>
+	<li> Stochastic Gradient Descent (SGD) </li>
+	<li> K-Nearest Neighbors k = 5 (KNN5) </li>
+	<li> K-Nearest Neighbors k = 10 (KNN10) </li>
+	<li> K-Nearest Neighbors k = 15 (KNN15) </li>
+	<li> Naive Bayes (NB) </li>
+	<li> Decision Tree (DT) </li>
+	<li> AdaBoost (AB) </li>
+	<li> Label propagation (LP)</li>
+</ul>
 
-Other motivations for emotion recognition are either research-based or involve law-enforcement (Dwoskin, 2015). 
-Companies like Affectiva (Affectiva, 2015) have already developed real-time facial expression recognition software that uses the psychologist Dr. Paul Ekman's work on basic human emotions -- surprise, contempt, fear, happy, sadness, disgust, and anger (Ekman, 1999). 
-These software can be used by other companies for marketing purposes, such as measuring the consumers' reaction to product advertisements. On law-enforcement side, emotion detection can be used for counter-terrorism measures, which may warn illicit activities or uncover inconsistencies in suspects' accounts during interrogation. 
+### Features and Classification
+<ul>
+	<li> AAM as feature, emotion label as classification</li>
+	<li> AU as feature, emotion label as classfication </li>
+	<li> AAM as feature, AU as classification</li>
+</ul>
 
-Due to the large impact of emotion recognition tools, it is vital that these tools are indeed accurate at detecting emotions. 
-Accuracy of these tools are dependent on the training sample size, machine learning classification algorithms, and generalizability to various cultures and environments. 
-Given the scope of this project, we will use existing facial expression dataset to compare the accuracies of various supervised machine learning algorithms in classifying facial expression data. 
+### Results
+<img src="readme_images/round1.png">
+<img src="readme_images/round2.png">
