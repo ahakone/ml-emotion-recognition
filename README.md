@@ -5,7 +5,7 @@
 Recognizing another human's emotions can not only improve social interaction, but also keep one from harm, such as the case when avoiding a person in a hostile mood. 
 Some individuals have visual or neurological conditions that make it difficult to recognize other's emotions. 
 For example, although many visually impaired individuals can still identify emotions from verbal cues, they are still lacking visual information that could complement emotion recognition. 
-Some individuals with autism spectrum disorder (ASP) have trouble both recognizing and expressing facial expressions \cite{DSM}, and therefore, having a tool that computes and reports another person's affect may aid communication. 
+Some individuals with autism spectrum disorder (ASP) have trouble both recognizing and expressing facial expressions (DSM, 2013), and therefore, having a tool that computes and reports another person's affect may aid communication. 
 
 Other motivations for emotion recognition are either research-based or involve law-enforcement (Dwoskin, 2015). 
 Companies like Affectiva (Affectiva, 2015) have already developed real-time facial expression recognition software that uses the psychologist Dr. Paul Ekman's work on basic human emotions -- surprise, contempt, fear, happy, sadness, disgust, and anger (Ekman, 1999). 
